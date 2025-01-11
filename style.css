@@ -94,3 +94,66 @@ html,body{
     font-size: 40px;
     color: aliceblue;
 }
+@media (max-width:600px) {
+    .main{
+        grid-template-columns: 50%  50%;
+        grid-template-rows: 40px 30% 10%;
+    
+    }
+    .left_left{
+        padding: 15px;
+    }
+    .square{
+        width: 15px;
+        height: 15px;
+    }
+    .left_right{
+        padding: 10px;
+        text-align: right;
+    }
+   .left_right h4{
+        display: initial;
+    
+    }
+    .left_right h5{
+        display: none;
+    
+    }
+    .left_top_right h6{
+        display: initial;
+        font-size: 20px;
+    
+    }
+    .left_center{
+        padding: 20px ;
+    
+    }
+    .left_center h1{
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+    .left_center h1:nth-child(2n){
+        text-align: right;
+    }
+    .left_buttom{
+        padding: 5px 15px;
+    }
+    .left_buttom p{
+        width: 90%;
+        font-size: 14px;
+    }
+    .arrow{
+        top: 47.30%;
+        left:  42%;
+        padding: 10px;
+         rotate:90deg;
+        font-size: 20px;
+    }
+    .right{
+        grid-column:1/4;
+        grid-row: 4;
+        padding: 20px;
+        margin: 20px 30px 10px 30px;
+    
+    }
+}
